@@ -8,6 +8,7 @@ public class desafioAtletas2 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
+		
 
 //		Leitura quantidade atletas 
 			System.out.println("Qual a quantidade de atletas? ");
