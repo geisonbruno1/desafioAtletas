@@ -15,6 +15,7 @@ public class desafioAtletas2 {
 			int n = sc.nextInt();
 
 //		Declaração Var
+			
 			double somaPeso = 0.0;
 			double porcentagemDeHomens = 0.0;
 			double alturamediaDasMulheres = 0.0;
@@ -26,8 +27,8 @@ public class desafioAtletas2 {
 
 //		Leitura dos dados dos atletas 
 
-			for (int i = 1; i < n; i++) {
-				System.out.println("Digite os dados do atleta numero " + i++ + " : ");
+			for (int i = 1; i <= n; i++) {
+				System.out.println("Digite os dados do atleta numero " + i + " : ");
 
 				System.out.print("Nome: ");
 				String nome = sc.next();
